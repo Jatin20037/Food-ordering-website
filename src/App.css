@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Quicksand&display=swap');
+*{
+  margin:0;
+ 
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+}
+
+#backgroundimg{
+width:100%;
+
+}
+.topframe{
+  background:#202020;
+}
+#navbar{
+  background: #282b2e;
+  padding:45px;
+}
+#title{
+  font-size:min(6vw,6rem);
+  margin:10%;
+  position:absolute;
+  background:none;
+}
+#subtitle{
+  font-size:min(3vw,3rem);
+  margin-left:10%;
+  margin-top:15%;
+  position:absolute;
+  background:none;
+}
+#order{
+  background:none;
+  font-size:min(2vw,1rem);
+  border:1px solid white;
+  padding:15px;
+}
+.categorycard{
+  background:none;
+}
+.categoryrow{
+  background:none;
+}
+.categoryimg{
+  width:100%;
+}
+.addtocart{
+  border:1px solid white;
+  padding:10px;
+ BACKGROUND:NONE;
+}
+#reviews
+{
+  background-image:linear-gradient(to right,#202020,rgba(0,0,0,0.7)),url(assets/noodles.jpg);
+ 
+  background-repeat:no-repeat;
+background-size: 100% 100%;
+}
+#reviewhead{
+  font-size:min(6vw,5rem);
+ 
+  background:none;
+}
+#subreviewhead{
+  font-size:min(2vw,1.2rem);
+ width:40%;
+  background:none;
+}
+#reviewtemplate1{
+  background:#202020;
+  width:40%;
+  padding:20px;
+}
+
+#reviewtemplate2{
+  background:#404040;
+  width:40%;
+  padding:20px;
+  margin-left:10%;
+}
+.payment{
+  font-size:min(2vw,2rem);
+}

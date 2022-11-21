@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Quicksand&display=swap');
+*{
+  margin:0;
+ 
+  font-family: 'Josefin Sans', sans-serif;
+
+  
+ 
+}
+#top{
+    background:#f5f5f5;
+   
+}
+#heading{
+    color:black;
+    background:none;
+    font-size:min(10vw,10rem);
+margin-top:10%;
+}
+#heading1{
+    color:black;
+    background:none;
+    font-size:min(5vw,3rem);
+}
+.addtocart2{
+    border:1px solid black;
+    padding:10px;
+   BACKGROUND:NONE;
+   color:black;
+  }
+  .categorycard{
+    background:none;
+    font-weight:bold;
+   
+  }
+  .categoryrow{
+    background:none;
+    
+  }
+  .categoryimg{
+    width:100%;
+    border-radius:5px;
+  }
+  #cartdiv{
+    position:absolute;
+    height:100%;
+    width:30%;
+    right:-100%;
+    top:0;
+    background:white;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5)
+  }
+  .cartitems{
+    color:black;
+  }
